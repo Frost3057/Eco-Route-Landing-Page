@@ -550,6 +550,9 @@ export default function EcoRouteLanding() {
             <li>
               Blockchain-powered inventory management for warehouses, enabling real-time stock visibility for both administrators and customers, including live quantity updates in the customer app.
             </li>
+            <li>
+              Voice commerce integration for hands-free ordering and enhanced accessibility.
+            </li>
           </ul>
         </div>
       </section>
