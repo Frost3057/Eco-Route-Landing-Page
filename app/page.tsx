@@ -993,22 +993,19 @@ export default function EcoRouteLanding() {
               >
                 <h3 className="text-2xl font-semibold mb-4">General</h3>
                 <div className="space-y-2">
-                  {["GitHub repo 1", "GitHub repo 2"].map((repo, index) => (
-                    <motion.p
-                      key={index}
-                      className="text-blue-200 hover:text-white cursor-pointer transition-colors duration-300"
-                      whileHover={{
-                        x: -5,
-                        transition: { duration: 0.2 },
-                      }}
-                      initial={{ opacity: 0, x: 20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.6 + index * 0.1, duration: 0.5 }}
-                      viewport={{ once: true }}
-                    >
-                      {repo}
-                    </motion.p>
-                  ))}
+                  <motion.a
+                    href="https://github.com/Frost3057/EcoRoute.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-200 hover:text-white cursor-pointer transition-colors duration-300 block"
+                    whileHover={{ x: -5, transition: { duration: 0.2 } }}
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.6, duration: 0.5 }}
+                    viewport={{ once: true }}
+                  >
+                    GitHub Repository
+                  </motion.a>
                 </div>
               </motion.div>
             </motion.div>
