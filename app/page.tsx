@@ -539,6 +539,21 @@ export default function EcoRouteLanding() {
         </div>
       </motion.section>
 
+      {/* Future Implementation Section */}
+      <section className="py-16 px-6 bg-gray-100">
+        <div className="max-w-5xl mx-auto text-center">
+          <h3 className="text-3xl font-bold mb-6 text-gray-800">Future Implementation</h3>
+          <ul className="text-lg text-gray-700 space-y-4 list-disc list-inside mx-auto max-w-2xl text-left">
+            <li>
+              Advanced algorithm optimization for multi-warehouse and priority-based deliveries to further streamline logistics and improve efficiency.
+            </li>
+            <li>
+              Blockchain-powered inventory management for warehouses, enabling real-time stock visibility for both administrators and customers, including live quantity updates in the customer app.
+            </li>
+          </ul>
+        </div>
+      </section>
+
       {/* Enhanced Team Section with Glass Morphism Animations */}
       <section className="py-20 px-6 bg-white relative overflow-hidden" ref={teamRef}>
         <div className="max-w-7xl mx-auto relative z-10">
